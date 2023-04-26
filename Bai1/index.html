@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="style.js">
+
+    </script>
+<form>
+    <h1 style="text-align: center; margin-top: 50px;">ĐĂNG KÝ THÀNH VIÊN</h1>
+    <table class="text">
+        <tr>
+            <td>
+                Họ và tên: 
+            </td>
+            <td><input id="name" type="text" placeholder="Nhập họ và tên"></td>
+        </tr>
+        <tr>
+            <td>Mật khẩu: </td>
+            <td>
+                <input id="pass" type="password">
+            </td>
+        </tr>
+        <tr>
+            <td>Khẳng định mật khẩu: </td>
+            <td> <input id="pass2" type="password"></td>
+        </tr>
+        <tr>
+            <td>Ngày tháng năm sinh: </td>
+            <td><input id="date" type="date"></td>
+        </tr>
+        <tr>
+            <td>Số điện thoại: </td>
+            <td> <input id="phone" type="text"></td>
+        </tr>
+        <tr>
+            <td>Sở thích: </td>
+            <td><input id="sothich" type="text"></td>
+        </tr>
+        <tr>
+            <td>Đường dẫn ảnh: </td>
+            <td><input id="link" type="file"></td>
+        </tr>
+        <tr>
+            <td><input onclick="send()" type="submit" value="Đăng kí"></td>
+            <td><input onclick="resetForm()" type="reset" value="Hủy bỏ"></td>
+        </tr>
+        
+    </table>
+</form>
+    
+</body>
+</html>
